@@ -1,0 +1,22 @@
+Program Pzim;
+
+Var ano: integer ;
+    anoatual: integer;
+    soma: integer;
+
+Begin
+  writeln (   'O ano em que voce nasceu   ');
+  writeln;
+  writeln;
+  writeln;
+  writeln ('quantos anos voce fez ou ira fazer no ano atual?');
+  readln (ano);
+  writeln('em que ano voce esta?');
+  readln(anoatual);
+  soma := anoatual - ano;
+  writeln('voce nasceu no ano', soma);
+  writeln;
+  writeln;
+  writeln;
+  writeln
+  End.
