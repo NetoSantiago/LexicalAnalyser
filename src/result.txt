@@ -1,0 +1,54 @@
+Symbol Table bellow:
+---> line: 9, Lexeme: string9:1 , token(string, 'O ano em que voce nasceu   ')
+---> line: 19, Lexeme: anoatual , token(ID, ), type: ID
+---> line: 15, Lexeme: string15:1 , token(string, 'quantos anos voce fez ou ira fazer no ano atual?')
+---> line: 17, Lexeme: string17:1 , token(string, 'em que ano voce esta?')
+---> line: 20, Lexeme: string20:1 , token(string, 'voce nasceu no ano')
+---> line: 1, Lexeme: Program , token(Keyword, ), type: Keyword
+---> line: 1, Lexeme: Pzim , token(ID, ), type: ID
+---> line: 19, Lexeme: ano , token(ID, ), type: ID
+---> line: 3, Lexeme: Var , token(Keyword, ), type: Keyword
+---> line: 3, Lexeme: integer , token(Keyword, ), type: Keyword
+---> line: 4, Lexeme: string , token(Keyword, ), type: Keyword
+---> line: 19, Lexeme: soma , token(ID, ), type: ID
+---> line: 5, Lexeme: integer , token(Keyword, ), type: Keyword
+---> line: 6, Lexeme: flow , token(ID, ), type: ID
+---> line: 6, Lexeme: float , token(ID, ), type: ID
+---> line: 8, Lexeme: Begin , token(ID, ), type: ID
+---> line: 10, Lexeme: writeln , token(Function, ), type: Function
+---> line: 12, Lexeme: writeln , token(Function, ), type: Function
+---> line: 13, Lexeme: writeln , token(Function, ), type: Function
+---> line: 16, Lexeme: readln , token(Function, ), type: Function
+---> line: 18, Lexeme: readln , token(Function, ), type: Function
+---> line: 21, Lexeme: writeln , token(Function, ), type: Function
+---> line: 22, Lexeme: writeln , token(Function, ), type: Function
+---> line: 23, Lexeme: writeln , token(Function, ), type: Function
+---> line: 24, Lexeme: writeln , token(Function, ), type: Function
+---> line: 25, Lexeme: End , token(Keyword, ), type: Keyword
+Lexemes not in symbol table bellow:
+---> line: 1, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 3, Lexeme: : , token(colon, ), type: colon
+---> line: 3, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 4, Lexeme: : , token(colon, ), type: colon
+---> line: 4, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 5, Lexeme: : , token(colon, ), type: colon
+---> line: 5, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 6, Lexeme: : , token(colon, ), type: colon
+---> line: 6, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 10, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 11, Lexeme: := , token(assign_op, ), type: assign_op
+---> line: 12, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 13, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 16, Lexeme: ( , token(lp, ), type: lp
+---> line: 16, Lexeme: ) , token(rp, ), type: rp
+---> line: 16, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 18, Lexeme: ( , token(lp, ), type: lp
+---> line: 18, Lexeme: ) , token(rp, ), type: rp
+---> line: 18, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 19, Lexeme: := , token(assign_op, ), type: assign_op
+---> line: 19, Lexeme: - , token(minus, ), type: minus
+---> line: 19, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 21, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 22, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 23, Lexeme: ; , token(semicolon, ), type: semicolon
+---> line: 25, Lexeme: . , token(dot, ), type: dot

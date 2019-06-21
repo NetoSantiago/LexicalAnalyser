@@ -1,14 +1,17 @@
 Program Pzim;
 
 Var ano: integer ;
-    anoatual: integer;
+    anoatual: string;
     soma: integer;
+    flow: float;
 
 Begin
   writeln (   'O ano em que voce nasceu   ');
   writeln;
+  ano := 5.3
+  writeln; (* este é um comentário *)
   writeln;
-  writeln;
+  anoatual := 'olá mundo'
   writeln ('quantos anos voce fez ou ira fazer no ano atual?');
   readln (ano);
   writeln('em que ano voce esta?');
