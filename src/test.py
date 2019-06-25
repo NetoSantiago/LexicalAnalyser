@@ -1,5 +1,5 @@
 import re
 
-a = 'a := 5'
-x = re.search('(\d)+', a)
-print(x.group())
+a = "writeln (   'O ano em que voce nasceu   ');"
+line = re.sub("'.*'", re.search("'.*'", a).group().replace(' ', '$'), a)
+print(line)
